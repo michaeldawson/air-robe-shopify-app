@@ -17,3 +17,7 @@ We're still figuring out our Air Robe architecture as we go, but for now, this r
 ## Webhooks
 
 - We install a webhook for the "orders/create" action, which is triggered after an order is finalised in one of our client's stores. This webhook sends data to _TBD_
+
+## Setup
+
+- Run `cp .env.example .env.development` and edit values (credentials stored in _TBD_ service)
